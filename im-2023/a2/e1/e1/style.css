@@ -1,0 +1,104 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "item1 item2 item3 item4 item5"
+      "item6 item6 item6 item6 item6";
+      width: 175vh;
+      height: 175vh;
+  }
+  
+  .item1 { grid-area: item1; 
+    background-color: lightslategray;
+    grid-column: 1/2;
+    margin: 10%;
+  }
+  
+  .item2 { grid-area: item2; 
+    background-color: rgb(114, 148, 181);
+    grid-column: 2/3;
+    margin: 10%;
+  }
+  
+  .item6 { grid-area: item6; 
+    background-color: rgb(112, 128, 153);
+    grid-column: 3/4;
+    grid-row: 1;
+    margin: 10%;
+  }
+  
+  .item3 { grid-area: item3; 
+    background-color: rgb(114, 148, 181);
+    grid-column: 4/5;
+    margin: 10%;
+  }
+  
+  .item4 { grid-area: item4; 
+    background-color: lightslategray;
+    grid-column: 5/6;
+    margin: 10%;
+  }
+  
+  .item5 { grid-area: item5; 
+    background-color: rgb(235, 235, 223);
+    grid-column: 1/6;
+    grid-row: 2;
+    margin: 2%;
+    border-style: solid;
+    border-color: 10px navy;
+  }
+
+  .item7 {
+    background-color: rgb(223, 100, 100);
+    grid-column: 2/5;
+    grid-row: 2;
+    margin: 5%;
+    border-radius: 30px;
+  }
+
+  .item8 {
+    background-color: rgb(223, 100, 100);
+    grid-column: 1/2;
+    grid-row: 1;
+    margin: 40%;
+    border-radius: 10px;
+  }
+  
+  .item9 {
+    background-color: rgb(223, 100, 100);
+    grid-column: 2/3;
+    grid-row: 1;
+    margin: 40%;
+    border-radius: 10px;
+  }
+
+  .item10 {
+    background-color: rgb(223, 100, 100);
+    grid-column: 3/4;
+    grid-row: 1;
+    margin: 40%;
+    border-radius: 10px;
+  }
+
+  .item11 {
+    background-color: rgb(223, 100, 100);
+    grid-column: 4/5;
+    grid-row: 1;
+    margin: 40%;
+    border-radius: 10px;
+  }
+
+  .item12 {
+    background-color: rgb(223, 100, 100);
+    grid-column: 5/6;
+    grid-row: 1;
+    margin: 40%;
+    border-radius: 10px;
+  }
+
+  /* I chose to use the red rounded shape to represent the character in each box. Using similar colours 
+  to help convey the story of the art work. Th cruved edges show the organic shapes but the rectnaglur 
+  shapes help to keep the geometric shape that the artwork uses.*/
+  
